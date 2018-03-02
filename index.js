@@ -10,6 +10,7 @@ function johnLennonFacts(facts) {
   var n = johnLennonFacts.length;
   while (n > 0) {
     facts[n] = `${facts[n]}!!!`;
+    n -= 1
   }
   return facts;
 }
